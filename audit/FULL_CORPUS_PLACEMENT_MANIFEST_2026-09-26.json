@@ -1,0 +1,61 @@
+{
+  "schema": "FULL_CORPUS_PLACEMENT_MANIFEST/v1",
+  "date": "2026-09-26",
+  "repository": "thytabakman-jpg/Take-3",
+  "branch": "improvecore/full-corpus-placement-audit-20260926",
+  "tree_truncated": false,
+  "total_files": 7,
+  "coverage": "every blob in recursive git tree",
+  "placement_counts": {
+    "VERIFICATION": 1,
+    "GENERAL": 1,
+    "ARCHITECTURE": 1,
+    "NAVIGATION": 1,
+    "EVIDENCE_HISTORY": 2,
+    "EXECUTABLE": 1
+  },
+  "files": [
+    {
+      "path": "BENCHMARKS.md",
+      "sha": "16347047521d76c5cf0ac126f160abe3171ca227",
+      "size": 1756,
+      "placement": "VERIFICATION"
+    },
+    {
+      "path": "ICC_CONTROL_PROMPT.md",
+      "sha": "fd7666a543db48a60165130beb15e2cbc9f05f25",
+      "size": 3725,
+      "placement": "GENERAL"
+    },
+    {
+      "path": "KERNEL.yaml",
+      "sha": "855717eb16075361ca450426ec72eb0283fdd9a7",
+      "size": 842,
+      "placement": "ARCHITECTURE"
+    },
+    {
+      "path": "README.md",
+      "sha": "ad9d0f7339b2ac14f45b15edf998c75d799fd00d",
+      "size": 1477,
+      "placement": "NAVIGATION"
+    },
+    {
+      "path": "experiments/001-bootstrap/RESULT.md",
+      "sha": "c82e9a3979aaa278d1767d6e6285f7c9b238e15a",
+      "size": 554,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "experiments/LAB_PACKET_001_PD_OWNERSHIP_ABLATION.md",
+      "sha": "194e4dc45cef9393c4b0642ecb3a0eda2a932211",
+      "size": 1186,
+      "placement": "EVIDENCE_HISTORY"
+    },
+    {
+      "path": "tools/check_kernel.py",
+      "sha": "22dbdac6d377e30f0f1801bdb2cf6b2a8574da30",
+      "size": 509,
+      "placement": "EXECUTABLE"
+    }
+  ]
+}
