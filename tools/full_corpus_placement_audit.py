@@ -6,10 +6,10 @@ from pathlib import Path
 
 TEXT_EXT={".md",".py",".yaml",".yml",".json",".toml",".txt",".sh",".js",".ts"}
 SKIP={".git",".venv","venv","__pycache__","node_modules"}
-FORMAL=re.compile(r"(?:^|\\b)(?:define[sd]?|definition|theorem|lemma|invariant|equation|math(?:ematics)?|operator|kernel|contract|law|axiom|proof|iff|⇒|→|⊢|\\\\forall|\\\\exists)\\b",re.I)
-STATUS=re.compile(r"\\b(?:CURRENT|SUPERSEDED|OPEN|BLOCKED|LOCKED|PROVISIONAL|REJECTED|OBSERVED|DERIVED|IMPLEMENTED|VALIDATED|MERGED|HISTORICAL|DEPRECATED)\\b")
-TODO=re.compile(r"\\b(?:TODO|FIXME|TBD|XXX|OPEN QUESTION|UNRESOLVED|SORT[_ -]?LATER|ORPHAN)\\b",re.I)
-LINK=re.compile(r"\\[[^\\]]*\\]\\(([^)#?]+)(?:#[^)]+)?\\)")
+FORMAL=re.compile(r"(?:^|\b)(?:define[sd]?|definition|theorem|lemma|invariant|equation|math(?:ematics)?|operator|kernel|contract|law|axiom|proof|iff|⇒|→|⊢|\\forall|\\exists)\b",re.I)
+STATUS=re.compile(r"\b(?:CURRENT|SUPERSEDED|OPEN|BLOCKED|LOCKED|PROVISIONAL|REJECTED|OBSERVED|DERIVED|IMPLEMENTED|VALIDATED|MERGED|HISTORICAL|DEPRECATED)\b")
+TODO=re.compile(r"\b(?:TODO|FIXME|TBD|XXX|OPEN QUESTION|UNRESOLVED|SORT[_ -]?LATER|ORPHAN)\b",re.I)
+LINK=re.compile(r"\[[^\]]*\]\(([^)#?]+)(?:#[^)]+)?\)")
 
 def placement(p):
     q=p.lower()
