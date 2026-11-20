@@ -1,11 +1,5 @@
-# ICC Bootstrap Result 001
+# RESULT.md
 
-ICC selected a deliberately smaller clean-room architecture than Take-2.
+The [exact experiment record in Reaserch](https://github.com/thytabakman-jpg/Reaserch/blob/main/System-Wide%20Experiments/Kernel%20and%20Controller%20Experiments/Take-3/experiments/001-bootstrap/RESULT.md) is the maintained location for this record.
 
-Candidate representation:
-Task, Finding, Action, Result.
-
-This is not a claim that Take-2's Object/Relation/Event/Transition/Observation distinction is unnecessary. It creates an ablation target: the matched benchmarks will show whether the smaller representation loses result-sensitive behavior.
-
-Next discriminator:
-B1 wrong-object recovery, because exact identity/currentness is explicit in Take-4 and Take-2 but not a dedicated Take-3 record type.
+The [original Take-3 revision](https://github.com/thytabakman-jpg/Take-3/blob/d85bef9ae256c3b59b88ae4aff3d2eeb41fcc3a7/experiments/001-bootstrap/RESULT.md) remains available for citations.
